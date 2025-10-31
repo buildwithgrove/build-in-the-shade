@@ -111,7 +111,15 @@
                         </div>
                         <p>Production-grade RPC endpoint for XRPL-EVM mainnet. No rate limits. No API keys.</p>
                         <div class="rpc-endpoint">
-                            <code>https://xrpl-evm.buildintheshade.com</code>
+                            <code id="mainnet-rpc">https://xrplevm.buildintheshade.com</code>
+                            <button class="copy-button" data-copy="mainnet-rpc" aria-label="Copy mainnet RPC endpoint">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <rect x="5" y="5" width="9" height="9" stroke="currentColor" stroke-width="1.5"
+                                        rx="1" />
+                                    <path d="M3 11V3C3 2.44772 3.44772 2 4 2H10" stroke="currentColor"
+                                        stroke-width="1.5" />
+                                </svg>
+                            </button>
                         </div>
                         <a href="/xrpl-evm" class="card-link-cyber">
                             Get Started →
@@ -124,7 +132,15 @@
                         </div>
                         <p>Free testnet RPC for development and testing. Perfect for building and debugging.</p>
                         <div class="rpc-endpoint">
-                            <code>https://xrpl-evm-testnet.buildintheshade.com</code>
+                            <code id="testnet-rpc">https://xrplevm-testnet.buildintheshade.com</code>
+                            <button class="copy-button" data-copy="testnet-rpc" aria-label="Copy testnet RPC endpoint">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <rect x="5" y="5" width="9" height="9" stroke="currentColor" stroke-width="1.5"
+                                        rx="1" />
+                                    <path d="M3 11V3C3 2.44772 3.44772 2 4 2H10" stroke="currentColor"
+                                        stroke-width="1.5" />
+                                </svg>
+                            </button>
                         </div>
                         <a href="/xrpl-evm" class="card-link-cyber">
                             Get Started →
@@ -157,7 +173,7 @@
                             </div>
                             <div class="stat">
                                 <span class="stat-label">Network</span>
-                                <span class="stat-value">Mainnet</span>
+                                <span class="stat-value">XRPL</span>
                             </div>
                         </div>
                         <a href="https://governance.xrplevm.org/xrplevm/validators/ethmvaloper1kmfpujlgf4v9krlkqh9wfj608jc8nqr6tzjdns"
@@ -179,7 +195,7 @@
                             </div>
                             <div class="stat">
                                 <span class="stat-label">Network</span>
-                                <span class="stat-value">Testnet</span>
+                                <span class="stat-value">XRPL</span>
                             </div>
                         </div>
                         <a href="https://governance.testnet.xrplevm.org/xrplevm/validators/ethmvaloper1jtzqeltmemzc4gqrgxway63eu2s9gv0v4fhjmc"
@@ -200,7 +216,7 @@
                             </div>
                             <div class="stat">
                                 <span class="stat-label">Network</span>
-                                <span class="stat-value">POKT</span>
+                                <span class="stat-value">Pocket Network</span>
                             </div>
                         </div>
                         <a href="https://poktscan.com/validator/poktvaloper12l2xmehtylf4m2vlddsxcgj3hlx8r6266pcaa3"
@@ -421,6 +437,7 @@
 
     <script type="module" src="src/js/main.js"></script>
     <script src="src/js/partners-scroll.js"></script>
+    <script src="src/js/copy-button.js"></script>
 </body>
 
 </html>

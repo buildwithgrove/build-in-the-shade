@@ -3400,3 +3400,46 @@ footer {
         display: none;
     }
 }
+
+/* Copy button styling */
+.rpc-endpoint {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.copy-button {
+    background: rgba(0, 240, 255, 0.1);
+    border: 1px solid var(--color-primary);
+    border-radius: 6px;
+    padding: 8px;
+    cursor: pointer;
+    color: var(--color-primary);
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.copy-button:hover {
+    background: rgba(0, 240, 255, 0.2);
+    border-color: var(--color-secondary);
+    color: var(--color-secondary);
+    box-shadow: 0 0 15px rgba(0, 240, 255, 0.4);
+}
+
+.copy-button:active {
+    transform: scale(0.95);
+}
+
+.copy-button.copied {
+    background: rgba(0, 240, 255, 0.3);
+    border-color: var(--color-cyan);
+    color: var(--color-cyan);
+}
+
+.copy-button svg {
+    display: block;
+}
