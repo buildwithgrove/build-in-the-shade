@@ -20,6 +20,9 @@ document.addEventListener('DOMContentLoaded', function() {
                     this.classList.add('copied');
                     const originalHTML = this.innerHTML;
 
+                    // Add blink animation to the code element
+                    targetElement.classList.add('copying');
+
                     // Show checkmark
                     this.innerHTML = `
                         <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
@@ -27,7 +30,12 @@ document.addEventListener('DOMContentLoaded', function() {
                         </svg>
                     `;
 
-                    // Reset after 2 seconds
+                    // Remove blink animation after it completes
+                    setTimeout(() => {
+                        targetElement.classList.remove('copying');
+                    }, 800);
+
+                    // Reset button after 2 seconds
                     setTimeout(() => {
                         this.classList.remove('copied');
                         this.innerHTML = originalHTML;

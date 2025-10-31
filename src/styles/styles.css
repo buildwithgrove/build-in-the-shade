@@ -3385,8 +3385,9 @@ footer {
 .api-header-text {
     font-size: 1.25rem;
     font-weight: 600;
-    color: var(--color-text);
+    color: var(--color-primary);
     white-space: nowrap;
+    text-shadow: 0 0 10px rgba(0, 240, 255, 0.5);
 }
 
 .api-header-text .api-param {
@@ -3421,6 +3422,7 @@ footer {
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
+    margin-left: auto;
 }
 
 .copy-button:hover {
@@ -3464,4 +3466,27 @@ footer {
 .rpc-endpoint code {
     font-size: 0.9rem;
     word-break: break-all;
+}
+
+/* Blink animation for code when copied */
+@keyframes blink-copy {
+    0%, 100% {
+        border-color: var(--color-primary);
+        box-shadow: 0 0 10px rgba(0, 240, 255, 0.5);
+        background: rgba(0, 240, 255, 0.05);
+    }
+    25%, 75% {
+        border-color: var(--color-purple);
+        box-shadow: 0 0 15px rgba(157, 78, 221, 0.8);
+        background: rgba(157, 78, 221, 0.1);
+    }
+    50% {
+        border-color: var(--color-primary);
+        box-shadow: 0 0 10px rgba(0, 240, 255, 0.5);
+        background: rgba(0, 240, 255, 0.05);
+    }
+}
+
+.rpc-endpoint code.copying {
+    animation: blink-copy 0.8s ease-in-out;
 }
