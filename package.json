@@ -1,63 +1,19 @@
 {
-  "name": "website-grove",
+  "name": "build-in-the-shade",
   "version": "1.0.0",
-  "description": "Grove website with security headers and documentation",
+  "description": "Build In The Shade - Free RPC endpoints and validator infrastructure",
   "main": "server.js",
   "private": true,
   "scripts": {
     "start": "node server.js",
-    "dev": "node server.js",
-    "docs:start": "cd docs-source && docusaurus start",
-    "docs:build": "cd docs-source && docusaurus build && cp -r build ../docs",
-    "docs:clear": "cd docs-source && docusaurus clear",
-    "docs:serve": "cd docs-source && docusaurus serve",
-    "docs:typecheck": "cd docs-source && tsc",
-    "build": "npm run docs:build",
-    "clean": "rm -rf docs docs-source/.docusaurus docs-source/build"
+    "dev": "node server.js"
   },
-  "author": "",
+  "author": "Grove Redefines Our Very Existence Inc.",
   "license": "ISC",
   "dependencies": {
-    "@docusaurus/core": "3.9.2",
-    "@docusaurus/plugin-content-blog": "3.9.2",
-    "@docusaurus/plugin-sitemap": "3.9.2",
-    "@docusaurus/preset-classic": "3.9.2",
-    "@docusaurus/theme-mermaid": "3.9.2",
-    "@easyops-cn/docusaurus-search-local": "0.52.1",
-    "@mantine/core": "^8.2.7",
-    "@mantine/form": "^8.2.7",
-    "@mantine/hooks": "^8.2.7",
-    "@mdx-js/react": "^3.1.0",
-    "@open-rpc/typings": "^1.12.4",
-    "clsx": "^2.1.1",
-    "dotenv": "^17.2.1",
-    "prism-react-renderer": "^2.4.1",
-    "react": "^19.1.1",
-    "react-dom": "^19.1.1",
-    "@tanstack/react-table": "^8.21.3"
-  },
-  "devDependencies": {
-    "@docusaurus/module-type-aliases": "3.9.2",
-    "@docusaurus/tsconfig": "^3.9.2",
-    "@types/react": "^19.1.11",
-    "postcss": "^8.5.6",
-    "postcss-preset-mantine": "^1.18.0",
-    "postcss-simple-vars": "^7.0.1",
-    "typescript": "^5.9.2"
-  },
-  "browserslist": {
-    "production": [
-      ">0.5%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "dotenv": "^17.2.1"
   },
   "engines": {
-    "node": ">=22.0"
+    "node": ">=18.0"
   }
 }
