@@ -1,0 +1,68 @@
+.tableContainer {
+  overflow-x: auto;
+  margin: 1rem 0;
+}
+
+.servicesTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+  font-size: 0.9rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.servicesTable thead tr {
+  background-color: var(--ifm-table-head-background);
+  color: var(--ifm-table-head-color);
+  text-align: left;
+  font-weight: var(--ifm-table-head-font-weight);
+}
+
+.servicesTable th,
+.servicesTable td {
+  padding: 12px 15px;
+  border-bottom: 1px solid var(--ifm-table-border-color);
+}
+
+.servicesTable tbody tr {
+  border-bottom: 1px solid var(--ifm-table-border-color);
+}
+
+.servicesTable tbody tr:nth-of-type(even) {
+  background-color: var(--ifm-table-stripe-background);
+}
+
+.servicesTable tbody tr:last-of-type {
+  border-bottom: 2px solid var(--ifm-color-primary);
+}
+
+.servicesTable tbody tr:hover {
+  background-color: var(--ifm-hover-overlay);
+}
+
+.checkmark {
+  color: #28a745;
+  font-weight: bold;
+  font-size: 1.2em;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+}
+
+.serviceId {
+  font-family: var(--ifm-font-family-monospace);
+  font-size: 0.9em;
+}
+
+@media (max-width: 768px) {
+  .servicesTable {
+    font-size: 0.8rem;
+  }
+  
+  .servicesTable th,
+  .servicesTable td {
+    padding: 8px 10px;
+  }
+}

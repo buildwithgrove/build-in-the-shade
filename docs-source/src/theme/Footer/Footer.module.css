@@ -1,0 +1,28 @@
+.footer {
+  padding-top: var(--mantine-spacing-xl);
+  border-top: 1px solid var(--mantine-color-default-border);
+  text-align: center;
+}
+.linksGroup {
+  color: var(--mantine-color-default-border);
+}
+
+@media (min-width: $mantine-breakpoint-xs) {
+  .footer {
+    text-align: left;
+  }
+  .socialGroup {
+    justify-content: flex-end !important;
+  }
+}
+
+@media (min-width: $mantine-breakpoint-sm) {
+  .linksGroup {
+    justify-content: center !important;
+  }
+}
+
+.logo {
+  max-height: 32px;
+  width: auto;
+}

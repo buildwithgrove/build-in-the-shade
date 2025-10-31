@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build In The Shade | Web3 Infrastructure & Validators</title>
+    <meta name="description"
+        content="Running validators for XRPL-EVM Mainnet & Testnet, Pocket Network. Building open source tools and supporting Web3 infrastructure.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://buildintheshade.com/">
+    <meta property="og:title" content="Build In The Shade | Web3 Infrastructure & Validators">
+    <meta property="og:description"
+        content="Running validators for XRPL-EVM Mainnet & Testnet, Pocket Network. Building open source tools and supporting Web3 infrastructure.">
+    <meta property="og:image" content="https://buildintheshade.com/images/watercolor/api-tip.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://buildintheshade.com/">
+    <meta property="twitter:title" content="Build In The Shade | Web3 Infrastructure & Validators">
+    <meta property="twitter:description"
+        content="Running validators for XRPL-EVM Mainnet & Testnet, Pocket Network. Building open source tools and supporting Web3 infrastructure.">
+    <meta property="twitter:image" content="https://buildintheshade.com/images/watercolor/api-tip.png">
+
+    <!-- Additional Meta Tags -->
+    <meta name="keywords"
+        content="XRPL-EVM validator, Pocket Network validator, Web3 infrastructure, blockchain validators, RPC endpoints, open source blockchain, XRPL EVM mainnet, XRPL EVM testnet, POKT validator">
+    <meta name="author" content="Build In The Shade">
+    <meta name="robots" content="index, follow">
+    <meta name="category" content="Technology">
+    <meta name="classification" content="Web3 Infrastructure" <!-- AI Crawling Guidance -->
+    <meta name="ai-content-declaration" content="indexed">
+    <link rel="alternate" type="text/plain" href="/.well-known/ai.txt">
+    <link rel="alternate" type="text/plain" href="/llms.txt">
+
+    <link rel="canonical" href="https://buildintheshade.com/">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Grove API",
+      "applicationCategory": "DeveloperApplication",
+      "description": "Grove API enables AI agents to tip and pay content creators with one API call. Support the open web through crypto tipping and payments for AI training, inference, and research.",
+      "url": "https://grove.city/",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD",
+        "description": "Beta access available"
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "Grove",
+        "url": "https://grove.city"
+      },
+      "featureList": [
+        "Single API call to pay any creator",
+        "Automatic currency conversion",
+        "Payment routing and compliance",
+        "Crypto and fiat payment support",
+        "AI training compensation",
+        "AI inference payments"
+      ],
+      "softwareVersion": "Beta",
+      "operatingSystem": "Web-based"
+    }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="src/styles/styles.css">
+</head>
+
+<body class="api-page">
+
+    <div id="header-content"></div>
+    <main>
+
+        <!-- Hero Section -->
+        <section class="api-hero">
+            <div class="api-hero-content">
+                <h1 class="api-title">Build In The <span class="api-param">Shade</span></h1>
+                <p class="api-subtitle">Come see what Grove has built.</p>
+            </div>
+        </section>
+
+
+        <!-- RPC Section -->
+        <section id="rpc" class="api-section rpc-section">
+            <div class="section-container">
+                <h2 class="section-title">
+                    RPC Endpoints
+                </h2>
+                <p class="section-description">Free, high-performance RPC endpoints for developers</p>
+
+                <div class="cards-grid-two">
+                    <div class="feature-card-cyber">
+                        <div class="card-header-cyber">
+                            <h3>XRPL-EVM Mainnet RPC</h3>
+                        </div>
+                        <p>Production-grade RPC endpoint for XRPL-EVM mainnet. No rate limits. No API keys.</p>
+                        <div class="rpc-endpoint">
+                            <code>https://xrpl-evm.buildintheshade.com</code>
+                        </div>
+                        <a href="/xrpl-evm" class="card-link-cyber">
+                            Get Started →
+                        </a>
+                    </div>
+
+                    <div class="feature-card-cyber">
+                        <div class="card-header-cyber">
+                            <h3>XRPL-EVM Testnet RPC</h3>
+                        </div>
+                        <p>Free testnet RPC for development and testing. Perfect for building and debugging.</p>
+                        <div class="rpc-endpoint">
+                            <code>https://xrpl-evm-testnet.buildintheshade.com</code>
+                        </div>
+                        <a href="/xrpl-evm" class="card-link-cyber">
+                            Get Started →
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Validators Section -->
+        <section id="validators" class="api-section validators-section">
+            <div class="section-container">
+                <h2 class="section-title">
+                    Validators
+                </h2>
+                <p class="section-description">Running secure, high-performance validators across multiple networks</p>
+
+                <div class="cards-grid-three">
+                    <div class="feature-card-cyber">
+                        <div class="card-header-cyber">
+                            <h3>XRPL-EVM Mainnet</h3>
+                        </div>
+                        <p>Securing the XRPL-EVM mainnet with 99.9% uptime. Processing thousands of transactions daily.
+                        </p>
+                        <div class="card-stats">
+                            <div class="stat">
+                                <span class="stat-label">Status</span>
+                                <span class="stat-value active">● Active</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-label">Network</span>
+                                <span class="stat-value">Mainnet</span>
+                            </div>
+                        </div>
+                        <a href="https://governance.xrplevm.org/xrplevm/validators/ethmvaloper1kmfpujlgf4v9krlkqh9wfj608jc8nqr6tzjdns"
+                            target="_blank" rel="noopener noreferrer" class="card-link-cyber">
+                            View Validator →
+                        </a>
+                    </div>
+
+                    <div class="feature-card-cyber">
+                        <div class="card-header-cyber">
+                            <h3>XRPL-EVM Testnet</h3>
+                        </div>
+                        <p>Supporting developers with reliable testnet infrastructure for building and testing dApps.
+                        </p>
+                        <div class="card-stats">
+                            <div class="stat">
+                                <span class="stat-label">Status</span>
+                                <span class="stat-value active">● Active</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-label">Network</span>
+                                <span class="stat-value">Testnet</span>
+                            </div>
+                        </div>
+                        <a href="https://governance.testnet.xrplevm.org/xrplevm/validators/ethmvaloper1jtzqeltmemzc4gqrgxway63eu2s9gv0v4fhjmc"
+                            target="_blank" rel="noopener noreferrer" class="card-link-cyber">
+                            View Validator →
+                        </a>
+                    </div>
+
+                    <div class="feature-card-cyber">
+                        <div class="card-header-cyber">
+                            <h3>Pocket Network</h3>
+                        </div>
+                        <p>POKT validator supporting decentralized RPC infrastructure for 60+ blockchains.</p>
+                        <div class="card-stats">
+                            <div class="stat">
+                                <span class="stat-label">Status</span>
+                                <span class="stat-value active">● Active</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-label">Network</span>
+                                <span class="stat-value">POKT</span>
+                            </div>
+                        </div>
+                        <a href="https://poktscan.com/validator/poktvaloper12l2xmehtylf4m2vlddsxcgj3hlx8r6266pcaa3"
+                            target="_blank" rel="noopener noreferrer" class="card-link-cyber">
+                            View Validator →
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Pocket Network Section -->
+        <section id="opensource" class="api-section opensource-section">
+            <div class="section-container">
+                <h2 class="section-title">
+                    Pocket Network
+                </h2>
+                <p class="section-description">Building open source tools for decentralized infrastructure</p>
+
+                <div class="cards-grid-four">
+                    <div class="feature-card-cyber">
+                        <div class="card-header-cyber">
+                            <h3>Pocket Network</h3>
+                        </div>
+                        <p>The current implementation for Pocket Network. The core protocol powering decentralized
+                            RPC infrastructure.</p>
+                        <a href="https://github.com/pokt-network/poktroll" target="_blank" rel="noopener noreferrer"
+                            class="card-link-cyber">
+                            View on GitHub →
+                        </a>
+                    </div>
+
+                    <div class="feature-card-cyber">
+                        <div class="card-header-cyber">
+                            <h3>PATH</h3>
+                        </div>
+                        <p>The reference API gateway client for Pocket Network.</p>
+                        <a href="https://github.com/buildwithgrove/path" target="_blank" rel="noopener noreferrer"
+                            class="card-link-cyber">
+                            View on GitHub →
+                        </a>
+                    </div>
+
+                    <div class="feature-card-cyber">
+                        <div class="card-header-cyber">
+                            <h3>MCP</h3>
+                        </div>
+                        <p>Model Context Protocol server for Pocket Network. Enabling AI agents to interact with
+                            blockchain data.</p>
+                        <a href="https://github.com/pokt-network/mcp" target="_blank" rel="noopener noreferrer"
+                            class="card-link-cyber">
+                            View on GitHub →
+                        </a>
+                    </div>
+
+                    <div class="feature-card-cyber">
+                        <div class="card-header-cyber">
+                            <h3>Pocket Knife</h3>
+                        </div>
+                        <p>Swiss Army knife for Pocket Network developers. CLI tooling and utilities for node operators
+                            and developers.</p>
+                        <a href="https://github.com/pokt-network/pocket-knife" target="_blank" rel="noopener noreferrer"
+                            class="card-link-cyber">
+                            View on GitHub →
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Partners Section -->
+        <section id="partners" class="api-section partners-section">
+            <div class="partners-header">
+                <h2 class="section-title">Partners</h2>
+                <p class="section-description">Collaborating with industry leaders to deliver reliable, permissionless
+                    infrastructure</p>
+            </div>
+
+            <div class="partners-track-wrapper">
+                <div class="partners-track">
+                    <!-- GetBlock -->
+                    <div class="partner-card-scroll">
+                        <div class="partner-date">September 2025</div>
+                        <a href="https://x.com/getblockio/status/1972663336396300507" target="_blank"
+                            rel="noopener noreferrer" class="partner-card-link">
+                            <div class="partner-logo-wrapper">
+                                <img src="/images/partners/getblock.jpg" alt="GetBlock">
+                            </div>
+                            <h3>GetBlock</h3>
+                            <p>GetBlock partnered with Grove to provide enhanced blockchain infrastructure services.</p>
+                            <span class="partner-arrow">→</span>
+                        </a>
+                    </div>
+
+                    <!-- XAO DAO -->
+                    <div class="partner-card-scroll">
+                        <div class="partner-date">September 2025</div>
+                        <a href="https://x.com/XAODAOLLC/status/1968430266956837092" target="_blank"
+                            rel="noopener noreferrer" class="partner-card-link">
+                            <div class="partner-logo-wrapper">
+                                <img src="/images/partners/xaodao.png" alt="XAO DAO">
+                            </div>
+                            <h3>XAO DAO</h3>
+                            <p>XAO DAO chose Grove as the Public Endpoint provider for governance on the XRPL EVM
+                                Sidechain.</p>
+                            <span class="partner-arrow">→</span>
+                        </a>
+                    </div>
+
+                    <!-- Arbitrum -->
+                    <div class="partner-card-scroll">
+                        <div class="partner-date">August 2025</div>
+                        <a href="https://portal.arbitrum.io/?project=grove" target="_blank" rel="noopener noreferrer"
+                            class="partner-card-link">
+                            <div class="partner-logo-wrapper">
+                                <img src="/images/services/arbitrum.png" alt="Arbitrum">
+                            </div>
+                            <h3>Arbitrum</h3>
+                            <p>Grove was chosen by Arbitrum as an official Public RPC Partner.</p>
+                            <span class="partner-arrow">→</span>
+                        </a>
+                    </div>
+
+                    <!-- Strobe Finance -->
+                    <div class="partner-card-scroll">
+                        <div class="partner-date">July 2025</div>
+                        <a href="https://x.com/StrobeFinance/status/1953082867996664189" target="_blank"
+                            rel="noopener noreferrer" class="partner-card-link">
+                            <div class="partner-logo-wrapper">
+                                <img src="/images/partners/strobe.png" alt="Strobe Finance">
+                            </div>
+                            <h3>Strobe Finance</h3>
+                            <p>Grove was chosen as the launch partner for Strobe, the world's first XRPL-EVM DeFi
+                                platform.</p>
+                            <span class="partner-arrow">→</span>
+                        </a>
+                    </div>
+
+                    <!-- XRPL EVM -->
+                    <div class="partner-card-scroll">
+                        <div class="partner-date">November 2024</div>
+                        <a href="/xrpl-evm" class="partner-card-link">
+                            <div class="partner-logo-wrapper">
+                                <img src="/images/services/xrp.png" alt="XRPL EVM">
+                            </div>
+                            <h3>XRPL EVM</h3>
+                            <p>Grove was selected by Ripple as a launch partner and validator for XRPL EVM Sidechain.
+                            </p>
+                            <span class="partner-arrow">→</span>
+                        </a>
+                    </div>
+
+                    <!-- Google Cloud -->
+                    <div class="partner-card-scroll">
+                        <div class="partner-date">October 2024</div>
+                        <a href="https://console.cloud.google.com/marketplace/product/grove-portal-public/grove-portal"
+                            target="_blank" rel="noopener noreferrer" class="partner-card-link">
+                            <div class="partner-logo-wrapper">
+                                <img src="/images/partners/gcp.png" alt="Google Cloud">
+                            </div>
+                            <h3>Google Cloud</h3>
+                            <p>Google partnered with Grove to resell blockchain RPC services to their customers.</p>
+                            <span class="partner-arrow">→</span>
+                        </a>
+                    </div>
+
+                    <!-- GVNR -->
+                    <div class="partner-card-scroll">
+                        <div class="partner-date">October 2024</div>
+                        <a href="https://www.blog.gvnr.xyz/blog/introducing-gvnr-authority" target="_blank"
+                            rel="noopener noreferrer" class="partner-card-link">
+                            <div class="partner-logo-wrapper">
+                                <img src="/images/partners/gvnr.png" alt="GVNR">
+                            </div>
+                            <h3>GVNR</h3>
+                            <p>Grove was chosen as a premier launch partner for GVNR's DeFi platform.</p>
+                            <span class="partner-arrow">→</span>
+                        </a>
+                    </div>
+
+                    <!-- zkLink -->
+                    <div class="partner-card-scroll">
+                        <div class="partner-date">July 2024</div>
+                        <a href="https://blog.zk.link/ecosystem-grants-program-phase-1-approves-16-projects-phase-2-commences-a0bc6cca8587"
+                            target="_blank" rel="noopener noreferrer" class="partner-card-link">
+                            <div class="partner-logo-wrapper">
+                                <img src="/images/services/zklink.png" alt="zkLink">
+                            </div>
+                            <h3>zkLink</h3>
+                            <p>Grove and Pocket Network were launch partners for zkLink's L3 network.</p>
+                            <span class="partner-arrow">→</span>
+                        </a>
+                    </div>
+
+                    <!-- Radix -->
+                    <div class="partner-card-scroll">
+                        <div class="partner-date">January 2024</div>
+                        <a href="https://www.radixdlt.com/blog/radix-partners-with-grove-to-power-devex-in-defi"
+                            target="_blank" rel="noopener noreferrer" class="partner-card-link">
+                            <div class="partner-logo-wrapper">
+                                <img src="/images/services/radix.png" alt="Radix">
+                            </div>
+                            <h3>Radix</h3>
+                            <p>Grove made it easier for developers to build on Radix's Babylon mainnet.</p>
+                            <span class="partner-arrow">→</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <div id="footer-content"></div>
+
+    </main>
+
+    <script type="module" src="src/js/main.js"></script>
+    <script src="src/js/partners-scroll.js"></script>
+</body>
+
+</html>

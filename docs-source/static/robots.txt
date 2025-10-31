@@ -1,0 +1,35 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://grove.city/docs/sitemap.xml
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
+
+# Disallow admin and private areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /api/
+
+# Block search result pages and tag indexes
+Disallow: /search
+Disallow: /tags/
+Disallow: /tag/
+
+# Allow all documentation pages
+Allow: /guides/
+Allow: /grove-api/
+Allow: /service-apis/
+Allow: /service-catalogue
+
+
+
+# Specific rules for search engines
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0.5
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 0.5
