@@ -3349,3 +3349,35 @@ footer {
     text-shadow: 0 0 20px rgba(255, 0, 255, 0.8),
                  0 0 40px rgba(255, 0, 255, 0.6);
 }
+
+/* Header logo and text styling */
+.api-logo-link {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+}
+
+.api-header-logo {
+    height: 40px;
+    width: auto;
+}
+
+.api-header-text {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--color-text);
+    white-space: nowrap;
+}
+
+.api-header-text .api-param {
+    color: var(--color-secondary);
+    font-style: italic;
+    text-shadow: 0 0 10px rgba(255, 0, 255, 0.5);
+}
+
+@media (max-width: 768px) {
+    .api-header-text {
+        display: none;
+    }
+}
