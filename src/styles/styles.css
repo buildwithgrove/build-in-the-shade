@@ -1289,11 +1289,24 @@ footer {
     animation: neon-flicker 3s ease-in-out infinite;
 }
 
-@keyframes neon-flicker {
-    0%, 100% { opacity: 1; }
-    50% { opacity: 0.95; }
-    51% { opacity: 1; }
-    52% { opacity: 0.98; }
+/* Neon flicker animation for "Shade" */
+@keyframes neon-flicker-shade {
+    0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+        text-shadow: 0 0 20px rgba(255, 0, 255, 0.8),
+                     0 0 40px rgba(255, 0, 255, 0.6),
+                     0 0 60px rgba(157, 78, 221, 0.4);
+        opacity: 1;
+    }
+    20%, 24%, 55% {
+        text-shadow: 0 0 5px rgba(255, 0, 255, 0.3),
+                     0 0 10px rgba(255, 0, 255, 0.2);
+        opacity: 0.4;
+    }
+    22% {
+        text-shadow: 0 0 10px rgba(255, 0, 255, 0.5),
+                     0 0 20px rgba(255, 0, 255, 0.3);
+        opacity: 0.7;
+    }
 }
 
 .api-param {
@@ -1301,6 +1314,7 @@ footer {
     font-style: italic;
     text-shadow: 0 0 20px rgba(255, 0, 255, 0.8),
                  0 0 40px rgba(255, 0, 255, 0.6);
+    animation: neon-flicker-shade 8s infinite;
 }
 
 .api-subtitle {
