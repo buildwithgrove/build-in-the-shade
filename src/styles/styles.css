@@ -1394,6 +1394,123 @@ footer {
     }
 }
 
+@keyframes neon-flicker-pattern-7 {
+    0%, 100% {
+        text-shadow: 0 0 20px rgba(255, 0, 255, 0.8),
+                     0 0 40px rgba(255, 0, 255, 0.6),
+                     0 0 60px rgba(157, 78, 221, 0.4);
+        opacity: 1;
+    }
+    5% {
+        opacity: 0.3;
+    }
+    6% {
+        opacity: 1;
+    }
+    7% {
+        opacity: 0.4;
+    }
+    8%, 9% {
+        opacity: 1;
+    }
+    10% {
+        opacity: 0.2;
+    }
+    11% {
+        opacity: 1;
+    }
+    45%, 50% {
+        text-shadow: 0 0 30px rgba(255, 0, 255, 0.9),
+                     0 0 50px rgba(255, 0, 255, 0.7);
+        opacity: 1;
+    }
+}
+
+@keyframes neon-flicker-pattern-8 {
+    0%, 100% {
+        text-shadow: 0 0 20px rgba(255, 0, 255, 0.8),
+                     0 0 40px rgba(255, 0, 255, 0.6),
+                     0 0 60px rgba(157, 78, 221, 0.4);
+        opacity: 1;
+    }
+    20%, 40% {
+        text-shadow: 0 0 10px rgba(255, 0, 255, 0.5),
+                     0 0 20px rgba(255, 0, 255, 0.4);
+        opacity: 0.5;
+    }
+    60% {
+        text-shadow: 0 0 5px rgba(255, 0, 255, 0.3),
+                     0 0 10px rgba(255, 0, 255, 0.2);
+        opacity: 0.3;
+    }
+    80% {
+        text-shadow: 0 0 25px rgba(255, 0, 255, 0.9),
+                     0 0 45px rgba(255, 0, 255, 0.7);
+        opacity: 0.9;
+    }
+}
+
+@keyframes neon-flicker-pattern-9 {
+    0%, 100% {
+        text-shadow: 0 0 20px rgba(255, 0, 255, 0.8),
+                     0 0 40px rgba(255, 0, 255, 0.6),
+                     0 0 60px rgba(157, 78, 221, 0.4);
+        opacity: 1;
+    }
+    25% {
+        opacity: 0.3;
+    }
+    26% {
+        opacity: 1;
+    }
+    27% {
+        opacity: 0.2;
+    }
+    28% {
+        opacity: 1;
+    }
+    29% {
+        opacity: 0.4;
+    }
+    30% {
+        opacity: 1;
+    }
+    70% {
+        text-shadow: 0 0 35px rgba(255, 0, 255, 1),
+                     0 0 70px rgba(255, 0, 255, 0.9);
+        opacity: 1;
+    }
+}
+
+@keyframes neon-flicker-pattern-10 {
+    0%, 100% {
+        text-shadow: 0 0 20px rgba(255, 0, 255, 0.8),
+                     0 0 40px rgba(255, 0, 255, 0.6),
+                     0 0 60px rgba(157, 78, 221, 0.4);
+        opacity: 1;
+    }
+    60% {
+        opacity: 1;
+    }
+    61% {
+        opacity: 0.1;
+    }
+    62% {
+        opacity: 0.8;
+    }
+    63% {
+        opacity: 0.2;
+    }
+    64% {
+        opacity: 1;
+    }
+    85%, 90% {
+        text-shadow: 0 0 15px rgba(255, 0, 255, 0.6),
+                     0 0 30px rgba(255, 0, 255, 0.5);
+        opacity: 0.8;
+    }
+}
+
 /* Hero "Shade" with multiple neon flicker patterns */
 .neon-shade {
     color: var(--color-secondary);
@@ -1425,6 +1542,22 @@ footer {
 
 .neon-shade.pattern-6 {
     animation: neon-flicker-pattern-6 3.3s 0.15s infinite;
+}
+
+.neon-shade.pattern-7 {
+    animation: neon-flicker-pattern-7 3.1s 0.12s infinite;
+}
+
+.neon-shade.pattern-8 {
+    animation: neon-flicker-pattern-8 3.6s 0.08s infinite;
+}
+
+.neon-shade.pattern-9 {
+    animation: neon-flicker-pattern-9 3.0s 0.1s infinite;
+}
+
+.neon-shade.pattern-10 {
+    animation: neon-flicker-pattern-10 3.4s 0.06s infinite;
 }
 
 /* Header and other "Shade" instances without flicker */
