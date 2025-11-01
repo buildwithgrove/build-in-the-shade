@@ -2647,10 +2647,10 @@ footer {
 
 /* GROVE letters styling */
 .grove-letter {
-    color: var(--color-light-blue);
+    color: var(--color-purple);
     font-weight: 700;
     transition: all 0.3s ease;
-    text-shadow: 0 0 10px rgba(144, 224, 239, 0.5);
+    text-shadow: 0 0 10px rgba(157, 78, 221, 0.5);
 }
 
 .copyright-link {
@@ -2660,8 +2660,8 @@ footer {
 }
 
 .copyright-link:hover .grove-letter {
-    color: var(--color-purple);
-    text-shadow: 0 0 15px rgba(157, 78, 221, 0.8);
+    color: var(--color-primary);
+    text-shadow: 0 0 15px rgba(0, 240, 255, 0.8);
 }
 
 /* Header logo and text styling */
