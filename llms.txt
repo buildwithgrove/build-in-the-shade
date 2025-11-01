@@ -9,8 +9,8 @@ Build in the Shade is infrastructure for blockchain developers. We provide free 
 ## Services
 
 ### RPC Endpoints
-- **XRPL-EVM Mainnet RPC**: https://xrplevm.buildintheshade.com
-- **XRPL-EVM Testnet RPC**: https://xrplevm-testnet.buildintheshade.com
+- **XRPL-EVM Mainnet RPC**: https://xrplevm.rpc.grove.city/v1/0caa84c4
+- **XRPL-EVM Testnet RPC**: https://xrplevm-testnet.rpc.grove.city/v1/0caa84c4
 - WebSocket support available
 - No rate limits
 - No API keys required

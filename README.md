@@ -86,12 +86,12 @@ build-in-the-shade/
 ## RPC Endpoints
 
 ### XRPL-EVM Mainnet
-- **HTTP**: `https://xrplevm.buildintheshade.com`
-- **WSS**: `wss://xrplevm.buildintheshade.com`
+- **HTTP**: `https://xrplevm.rpc.grove.city/v1/0caa84c4`
+- **WSS**: `wss://xrplevm.rpc.grove.city/v1/0caa84c4`
 
 ### XRPL-EVM Testnet
-- **HTTP**: `https://xrplevm-testnet.buildintheshade.com`
-- **WSS**: `wss://xrplevm-testnet.buildintheshade.com`
+- **HTTP**: `https://xrplevm-testnet.rpc.grove.city/v1/0caa84c4`
+- **WSS**: `wss://xrplevm-testnet.rpc.grove.city/v1/0caa84c4`
 
 ## License
 
