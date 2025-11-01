@@ -1377,15 +1377,16 @@ footer {
 }
 
 .grove-link {
-    color: var(--color-primary);
+    color: var(--color-text-secondary);
     text-decoration: none;
     transition: all 0.3s ease;
     position: relative;
+    font-weight: 700;
 }
 
 .grove-link:hover {
-    color: var(--color-secondary);
-    text-shadow: 0 0 15px rgba(255, 0, 255, 0.8);
+    color: var(--color-blue);
+    text-shadow: 0 0 15px rgba(0, 180, 216, 0.8);
 }
 
 /* API Diagram */
@@ -2298,7 +2299,7 @@ footer {
     background: rgba(10, 0, 20, 0.9);
     border: 2px solid var(--color-primary);
     border-radius: 20px;
-    padding: 40px 32px;
+    padding: 28px 32px;
     transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     position: relative;
     overflow: hidden;
@@ -2334,7 +2335,7 @@ footer {
 }
 
 .card-header-cyber {
-    margin-bottom: 20px;
+    margin-bottom: 12px;
 }
 
 .card-content-cyber {
@@ -2857,8 +2858,8 @@ footer {
 .rpc-endpoints-group {
     display: flex;
     flex-direction: column;
-    gap: 12px;
-    margin: 16px 0;
+    gap: 10px;
+    margin: 8px 0;
 }
 
 .endpoint-label {
