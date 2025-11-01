@@ -8,8 +8,8 @@ export function initializeNeonFlicker() {
 
     if (neonElements.length === 0) return;
 
-    const patterns = ['pattern-1', 'pattern-2', 'pattern-3', 'pattern-4'];
-    const durations = [3500, 4200, 5100, 6700]; // Match CSS animation durations in ms
+    const patterns = ['pattern-1', 'pattern-2', 'pattern-3', 'pattern-4', 'pattern-5', 'pattern-6'];
+    const durations = [2800, 3200, 3500, 3800, 2900, 3300]; // Match CSS animation durations in ms
 
     neonElements.forEach(element => {
         // Randomly select starting pattern
