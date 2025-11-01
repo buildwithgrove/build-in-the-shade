@@ -38,9 +38,11 @@
     <link rel="canonical" href="https://buildintheshade.com/">
 
     <!-- Favicons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="theme-color" content="#0a0014">
 
     <!-- Schema.org Structured Data -->
     <script type="application/ld+json">
@@ -90,7 +92,7 @@
         <!-- Hero Section -->
         <section class="api-hero">
             <div class="api-hero-content">
-                <h1 class="api-title">Build In The <span class="api-param">Shade</span></h1>
+                <h1 class="api-title">Build in the <span class="api-param">Shade</span></h1>
                 <p class="api-subtitle">Come see what Grove has built.</p>
             </div>
         </section>
@@ -102,31 +104,37 @@
                 <h2 class="section-title">
                     RPC Endpoints
                 </h2>
-                <p class="section-description">Free, high-performance RPC endpoints for developers</p>
+                <p class="section-description">Free, reliable, high-performance RPC endpoints</p>
 
                 <div class="cards-grid-two">
                     <div class="feature-card-cyber">
                         <div class="card-header-cyber">
-                            <h3>XRPL-EVM Mainnet RPC</h3>
+                            <h3>XRPL-EVM MainNet RPC</h3>
                         </div>
                         <div class="rpc-endpoints-group">
                             <div class="rpc-endpoint">
                                 <span class="endpoint-label">HTTP:</span>
                                 <code id="mainnet-rpc">https://xrplevm.buildintheshade.com</code>
-                                <button class="copy-button" data-copy="mainnet-rpc" aria-label="Copy mainnet RPC endpoint">
+                                <button class="copy-button" data-copy="mainnet-rpc"
+                                    aria-label="Copy mainnet RPC endpoint">
                                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                                        <rect x="5" y="5" width="9" height="9" stroke="currentColor" stroke-width="1.5" rx="1" />
-                                        <path d="M3 11V3C3 2.44772 3.44772 2 4 2H10" stroke="currentColor" stroke-width="1.5" />
+                                        <rect x="5" y="5" width="9" height="9" stroke="currentColor" stroke-width="1.5"
+                                            rx="1" />
+                                        <path d="M3 11V3C3 2.44772 3.44772 2 4 2H10" stroke="currentColor"
+                                            stroke-width="1.5" />
                                     </svg>
                                 </button>
                             </div>
                             <div class="rpc-endpoint">
                                 <span class="endpoint-label">WSS:</span>
                                 <code id="mainnet-wss">wss://xrplevm.buildintheshade.com</code>
-                                <button class="copy-button" data-copy="mainnet-wss" aria-label="Copy mainnet WebSocket endpoint">
+                                <button class="copy-button" data-copy="mainnet-wss"
+                                    aria-label="Copy mainnet WebSocket endpoint">
                                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                                        <rect x="5" y="5" width="9" height="9" stroke="currentColor" stroke-width="1.5" rx="1" />
-                                        <path d="M3 11V3C3 2.44772 3.44772 2 4 2H10" stroke="currentColor" stroke-width="1.5" />
+                                        <rect x="5" y="5" width="9" height="9" stroke="currentColor" stroke-width="1.5"
+                                            rx="1" />
+                                        <path d="M3 11V3C3 2.44772 3.44772 2 4 2H10" stroke="currentColor"
+                                            stroke-width="1.5" />
                                     </svg>
                                 </button>
                             </div>
@@ -135,26 +143,32 @@
 
                     <div class="feature-card-cyber">
                         <div class="card-header-cyber">
-                            <h3>XRPL-EVM Testnet RPC</h3>
+                            <h3>XRPL-EVM TestNet RPC</h3>
                         </div>
                         <div class="rpc-endpoints-group">
                             <div class="rpc-endpoint">
                                 <span class="endpoint-label">HTTP:</span>
                                 <code id="testnet-rpc">https://xrplevm-testnet.buildintheshade.com</code>
-                                <button class="copy-button" data-copy="testnet-rpc" aria-label="Copy testnet RPC endpoint">
+                                <button class="copy-button" data-copy="testnet-rpc"
+                                    aria-label="Copy testnet RPC endpoint">
                                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                                        <rect x="5" y="5" width="9" height="9" stroke="currentColor" stroke-width="1.5" rx="1" />
-                                        <path d="M3 11V3C3 2.44772 3.44772 2 4 2H10" stroke="currentColor" stroke-width="1.5" />
+                                        <rect x="5" y="5" width="9" height="9" stroke="currentColor" stroke-width="1.5"
+                                            rx="1" />
+                                        <path d="M3 11V3C3 2.44772 3.44772 2 4 2H10" stroke="currentColor"
+                                            stroke-width="1.5" />
                                     </svg>
                                 </button>
                             </div>
                             <div class="rpc-endpoint">
                                 <span class="endpoint-label">WSS:</span>
                                 <code id="testnet-wss">wss://xrplevm-testnet.buildintheshade.com</code>
-                                <button class="copy-button" data-copy="testnet-wss" aria-label="Copy testnet WebSocket endpoint">
+                                <button class="copy-button" data-copy="testnet-wss"
+                                    aria-label="Copy testnet WebSocket endpoint">
                                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                                        <rect x="5" y="5" width="9" height="9" stroke="currentColor" stroke-width="1.5" rx="1" />
-                                        <path d="M3 11V3C3 2.44772 3.44772 2 4 2H10" stroke="currentColor" stroke-width="1.5" />
+                                        <rect x="5" y="5" width="9" height="9" stroke="currentColor" stroke-width="1.5"
+                                            rx="1" />
+                                        <path d="M3 11V3C3 2.44772 3.44772 2 4 2H10" stroke="currentColor"
+                                            stroke-width="1.5" />
                                     </svg>
                                 </button>
                             </div>
@@ -176,7 +190,7 @@
                 <div class="cards-grid-three">
                     <div class="feature-card-cyber">
                         <div class="card-header-cyber">
-                            <h3>XRPL-EVM Mainnet</h3>
+                            <h3>XRPL-EVM MainNet</h3>
                         </div>
                         <div class="card-stats">
                             <div class="stat">
@@ -196,7 +210,7 @@
 
                     <div class="feature-card-cyber">
                         <div class="card-header-cyber">
-                            <h3>XRPL-EVM Testnet</h3>
+                            <h3>XRPL-EVM TestNet</h3>
                         </div>
                         <div class="card-stats">
                             <div class="stat">
