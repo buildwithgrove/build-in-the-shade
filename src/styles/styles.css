@@ -2970,6 +2970,16 @@ footer {
     margin-bottom: 20px;
 }
 
+.card-content-cyber {
+    margin-bottom: 16px;
+}
+
+.card-content-cyber p {
+    color: var(--color-text-secondary);
+    line-height: 1.6;
+    margin: 0;
+}
+
 .card-icon-cyber {
     width: 48px;
     height: 48px;
