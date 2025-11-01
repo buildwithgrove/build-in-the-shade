@@ -1276,6 +1276,18 @@ footer {
     text-align: center;
 }
 
+.grove-link {
+    color: var(--color-primary);
+    text-decoration: none;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.grove-link:hover {
+    color: var(--color-secondary);
+    text-shadow: 0 0 15px rgba(255, 0, 255, 0.8);
+}
+
 /* API Diagram */
 .api-diagram {
     margin: 60px auto 0;
