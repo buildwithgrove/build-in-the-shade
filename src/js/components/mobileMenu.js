@@ -1,9 +1,8 @@
 // components/mobileMenu.js
 
 export function initializeMobileMenu() {
-    // Support both old and new header styles
-    const menuButton = document.querySelector('.menu-button, .api-menu-button');
-    const nav = document.querySelector('.nav, .api-nav');
+    const menuButton = document.querySelector('.mobile-menu-button');
+    const nav = document.querySelector('.site-nav');
     const authButtons = document.querySelector('.auth-buttons');
 
     if (!menuButton || !nav) {
@@ -23,7 +22,7 @@ export function initializeMobileMenu() {
 
     // Close menu when clicking outside
     document.addEventListener('click', (event) => {
-        if (!event.target.closest('.header-content, .api-header-content')) {
+        if (!event.target.closest('.header-content')) {
             nav.classList.remove('active');
             if (authButtons) {
                 authButtons.classList.remove('active');

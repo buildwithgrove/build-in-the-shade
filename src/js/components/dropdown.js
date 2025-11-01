@@ -4,7 +4,7 @@ export function initializeDropdowns() {
     const navItems = document.querySelectorAll('.nav-item');
 
     navItems.forEach(navItem => {
-        const navLink = navItem.querySelector('.nav-link, .api-nav-link');
+        const navLink = navItem.querySelector('.nav-link');
 
         if (!navLink) return;
 
