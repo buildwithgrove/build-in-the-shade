@@ -35,8 +35,13 @@
       "destination": "/index.html"
     },
     {
+      "source": "/xrpl-evm",
+      "destination": "/xrpl-evm.html"
+    },
+    {
       "source": "/(.*)",
       "destination": "/index.html"
     }
-  ]
+  ],
+  "cleanUrls": true
 }
