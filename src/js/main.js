@@ -1,6 +1,7 @@
 import { loadComponent } from './utils/dom.js';
 import { initializeMobileMenu } from './components/mobileMenu.js';
 import { initializeDropdowns } from './components/dropdown.js';
+import { initializeNeonFlicker } from './neonFlicker.js';
 
 async function init() {
     try {
@@ -15,6 +16,9 @@ async function init() {
 
         // Initialize dropdown menus
         initializeDropdowns();
+
+        // Initialize neon flicker pattern cycling
+        initializeNeonFlicker();
 
         // Update copyright year
         const yearElement = document.getElementById('current-year');
