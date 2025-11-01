@@ -908,7 +908,6 @@ footer {
 
 /* === Base === */
 .api-page {
-    background: #ffffff;
     color: var(--color-text);
     min-height: 100vh;
     display: flex;
@@ -1763,11 +1762,11 @@ footer {
 }
 
 .api-page .feature-card {
-    background: rgba(255, 255, 255, 0.95);
+    background: rgba(10, 0, 20, 0.8);
     backdrop-filter: blur(8px);
-    border: 1px solid rgba(226, 232, 240, 0.8);
-    border-radius: 12px;
-    padding: 24px 24px;
+    border: 2px solid var(--color-primary);
+    border-radius: 20px;
+    padding: 24px;
     text-align: center;
     transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     position: relative;
@@ -1779,6 +1778,7 @@ footer {
     min-width: 200px;
     justify-content: center;
     width: 280px;
+    box-shadow: 0 0 20px rgba(0, 240, 255, 0.2);
 }
 
 .api-page .feature-card::before {
@@ -1787,9 +1787,9 @@ footer {
     top: 0;
     left: 0;
     right: 0;
-    height: 4px;
-    background: linear-gradient(90deg, #ff6b35, #f59e0b);
-    border-radius: 16px 16px 0 0;
+    height: 3px;
+    background: linear-gradient(90deg, var(--color-primary), var(--color-secondary), var(--color-pink));
+    border-radius: 20px 20px 0 0;
     transform: scaleX(0);
     transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -1799,10 +1799,10 @@ footer {
 }
 
 .api-page .feature-card:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 12px 32px rgba(255, 107, 53, 0.15);
-    border-color: rgba(255, 107, 53, 0.6);
-    background: rgba(255, 255, 255, 1);
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 0 40px rgba(0, 240, 255, 0.5),
+                0 0 60px rgba(255, 0, 255, 0.3);
+    border-color: var(--color-secondary);
     z-index: 3;
 }
 
@@ -1830,8 +1830,8 @@ footer {
 
 .api-page .feature-card p {
     font-size: 0.875rem;
-    color: var(--color-text);
-    line-height: 1.4;
+    color: var(--color-text-secondary);
+    line-height: 1.6;
     margin: 0;
     text-align: center;
 }
