@@ -1243,7 +1243,7 @@ footer {
 /* === Hero Section === */
 .api-hero {
     background: linear-gradient(180deg, #0a0014 0%, #1a0030 50%, #0a0014 100%);
-    padding: 120px 32px 60px;
+    padding: 120px 32px 20px;
     text-align: center;
     position: relative;
     overflow: hidden;
@@ -1625,7 +1625,7 @@ footer {
 
 /* === Sections === */
 .api-section {
-    padding: 60px 32px;
+    padding: 40px 32px;
 }
 
 .section-container {
@@ -2222,11 +2222,11 @@ footer {
     }
 
     .api-hero {
-        padding: 80px 24px 60px;
+        padding: 80px 24px 15px;
     }
 
     .api-section {
-        padding: 60px 24px;
+        padding: 40px 24px;
     }
 
     .section-title {
@@ -2429,7 +2429,7 @@ footer {
     }
 
     .api-hero {
-        padding: 60px 16px 40px;
+        padding: 60px 16px 15px;
     }
 
     .api-section {
