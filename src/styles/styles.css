@@ -1190,7 +1190,7 @@ footer {
 /* === Hero Section === */
 .api-hero {
     background: linear-gradient(180deg, #0a0014 0%, #1a0030 50%, #0a0014 100%);
-    padding: 120px 32px 20px;
+    padding: 120px 0 20px;
     text-align: center;
     position: relative;
     overflow: hidden;
@@ -1214,6 +1214,7 @@ footer {
 .api-hero-content {
     max-width: 1100px;
     margin: 0 auto;
+    padding: 0 32px;
     position: relative;
     z-index: 1;
 }
@@ -1894,7 +1895,11 @@ footer {
     }
 
     .api-hero {
-        padding: 80px 24px 15px;
+        padding: 80px 0 15px;
+    }
+
+    .api-hero-content {
+        padding: 0 24px;
     }
 
     .api-section {
@@ -2101,7 +2106,11 @@ footer {
     }
 
     .api-hero {
-        padding: 60px 16px 15px;
+        padding: 60px 0 15px;
+    }
+
+    .api-hero-content {
+        padding: 0 16px;
     }
 
     .api-section {
