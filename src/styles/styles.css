@@ -1309,12 +1309,21 @@ footer {
     }
 }
 
-.api-param {
+/* Hero "Shade" with neon flicker */
+.neon-shade {
     color: var(--color-secondary);
     font-style: italic;
     text-shadow: 0 0 20px rgba(255, 0, 255, 0.8),
                  0 0 40px rgba(255, 0, 255, 0.6);
     animation: neon-flicker-shade 8s infinite;
+}
+
+/* Header and other "Shade" instances without flicker */
+.api-param {
+    color: var(--color-secondary);
+    font-style: italic;
+    text-shadow: 0 0 20px rgba(255, 0, 255, 0.8),
+                 0 0 40px rgba(255, 0, 255, 0.6);
 }
 
 .api-subtitle {
