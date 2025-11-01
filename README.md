@@ -1,4 +1,4 @@
-# Build In The Shade
+# Build in the Shade
 
 Free, high-performance RPC endpoints and validator infrastructure for blockchain developers.
 
