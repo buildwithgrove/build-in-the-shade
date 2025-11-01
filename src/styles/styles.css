@@ -3187,9 +3187,11 @@ footer {
 
 .partners-track-wrapper {
     width: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: visible;
     position: relative;
     z-index: 1;
+    padding: 20px 0;
 }
 
 .partners-track {
