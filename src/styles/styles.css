@@ -1081,15 +1081,15 @@ footer {
     top: calc(100% + 8px);
     left: 50%;
     transform: translateX(-50%);
-    background: linear-gradient(135deg, #ECFDF5 0%, #D1FAE5 100%);
-    color: #166534;
+    background: linear-gradient(135deg, rgba(0, 240, 255, 0.2) 0%, rgba(0, 240, 255, 0.1) 100%);
+    color: var(--color-primary);
     font-size: 0.75rem;
     font-weight: 600;
     padding: 6px 12px;
     border-radius: 6px;
     border: 1px solid var(--color-primary);
     white-space: nowrap;
-    box-shadow: 0 4px 12px rgba(56, 159, 88, 0.15);
+    box-shadow: 0 4px 12px rgba(0, 240, 255, 0.3);
     opacity: 0;
     visibility: hidden;
     transition: all var(--transition-medium);
@@ -1515,7 +1515,7 @@ footer {
 
 /* === Value Propositions Section === */
 .value-props-section {
-    background: #ffffff;
+    background: var(--color-bg-dark);
     padding: 80px 32px;
 }
 
@@ -1530,7 +1530,7 @@ footer {
 }
 
 .value-prop-card {
-    background: #ffffff;
+    background: rgba(10, 0, 20, 0.8);
     border: 2px solid var(--color-primary);
     border-radius: 20px;
     padding: 24px 20px;
@@ -1702,7 +1702,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, #ECFDF5 0%, #D1FAE5 100%);
+    background: linear-gradient(135deg, rgba(0, 240, 255, 0.2) 0%, rgba(0, 240, 255, 0.1) 100%);
     border-radius: 12px;
     color: var(--color-primary);
 }
@@ -1728,7 +1728,7 @@ footer {
 
 /* === What We Provide Section === */
 .what-we-provide {
-    background: linear-gradient(180deg, #ffffff 0%, #FAFAFA 100%);
+    background: var(--color-bg-dark);
 }
 
 .features-container {
@@ -1813,7 +1813,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, #ECFDF5 0%, #D1FAE5 100%);
+    background: linear-gradient(135deg, rgba(0, 240, 255, 0.2) 0%, rgba(0, 240, 255, 0.1) 100%);
     border-radius: 10px;
     color: var(--color-primary);
 }
@@ -1824,7 +1824,7 @@ footer {
 }
 
 .api-page .feature-card.coming-soon .feature-icon {
-    background: linear-gradient(135deg, #F3F4F6 0%, #E5E7EB 100%);
+    background: linear-gradient(135deg, rgba(128, 128, 192, 0.2) 0%, rgba(128, 128, 192, 0.1) 100%);
     color: var(--color-text-tertiary);
 }
 
@@ -1866,14 +1866,14 @@ footer {
     max-width: 1400px;
     margin: 40px auto 0;
     padding: 32px 48px;
-    background: linear-gradient(135deg, #ECFDF5 0%, #D1FAE5 100%);
+    background: linear-gradient(135deg, rgba(0, 240, 255, 0.15) 0%, rgba(0, 240, 255, 0.05) 100%);
     border-radius: var(--radius-lg);
-    border: 1px solid rgba(56, 159, 88, 0.2);
+    border: 1px solid var(--color-primary);
 }
 
 .api-callout p {
     font-size: 1.125rem;
-    color: #166534;
+    color: var(--color-primary);
     line-height: 1.6;
     margin: 0;
     text-align: center;
@@ -1931,8 +1931,8 @@ footer {
 }
 
 .waitlist-card {
-    background: #ffffff;
-    border: 1px solid rgba(0, 0, 0, 0.08);
+    background: rgba(10, 0, 20, 0.8);
+    border: 2px solid var(--color-primary);
     border-radius: var(--radius-lg);
     padding: 40px 32px;
     position: relative;
@@ -2005,7 +2005,7 @@ footer {
     border-radius: var(--radius-base);
     font-size: 1rem;
     color: var(--color-text);
-    background: #ffffff;
+    background: rgba(10, 0, 20, 0.6);
     transition: all var(--transition-base);
     font-family: 'Inter', sans-serif;
 }
@@ -2640,21 +2640,22 @@ footer {
     display: inline-flex;
     align-items: center;
     padding: 0.875rem 1.25rem;
-    background: white;
-    color: #334155;
+    background: rgba(10, 0, 20, 0.8);
+    color: var(--color-text);
     font-weight: 600;
     font-size: 0.95rem;
     border-radius: 12px;
     text-decoration: none;
-    border: 2px solid #e2e8f0;
+    border: 2px solid var(--color-primary);
     transition: all 0.3s ease;
     white-space: nowrap;
 }
 
 .cta-secondary:hover {
-    border-color: #cbd5e1;
-    background: #f8fafc;
+    border-color: var(--color-secondary);
+    background: rgba(10, 0, 20, 0.95);
     transform: translateY(-2px);
+    box-shadow: 0 0 20px rgba(0, 240, 255, 0.4);
 }
 
 /* Hero Image with Glow Effect */
@@ -2705,10 +2706,10 @@ footer {
 }
 
 .feature-card-modern {
-    background: white;
+    background: rgba(10, 0, 20, 0.8);
     border-radius: 20px;
     padding: 3rem 2.5rem;
-    border: 1px solid #e2e8f0;
+    border: 2px solid var(--color-primary);
     transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     position: relative;
     overflow: hidden;
