@@ -3105,6 +3105,11 @@ footer {
     transform: translateX(4px);
 }
 
+.feature-card-cyber:hover .card-link-cyber {
+    color: var(--color-secondary);
+    text-shadow: 0 0 20px rgba(255, 0, 255, 0.8);
+}
+
 /* Responsive Design for New Cards */
 @media (max-width: 1024px) {
     .cards-grid-three {
@@ -3156,7 +3161,7 @@ footer {
     background: var(--color-bg-dark);
     position: relative;
     overflow: hidden;
-    padding: 80px 0;
+    padding: 100px 0;
 }
 
 .partners-section::before {
@@ -3191,7 +3196,7 @@ footer {
     display: flex;
     gap: 32px;
     padding-left: 32px;
-    animation: scroll-left 40s linear infinite;
+    animation: scroll-left 32s linear infinite;
     width: fit-content;
 }
 
